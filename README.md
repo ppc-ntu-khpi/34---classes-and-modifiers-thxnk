@@ -52,6 +52,7 @@ public class Customer {
 
 # Adnvanced: 
 
+![](https://github.com/ppc-ntu-khpi/34---classes-and-modifiers-thxnk/blob/main/Solution/advanced.png?raw=true)
 
 
 
