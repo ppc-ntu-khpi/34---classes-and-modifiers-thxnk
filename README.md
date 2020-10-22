@@ -1,4 +1,6 @@
-# code of Customer: 
+# На 5
+
+## code of Customer: 
 ``` java
 package domain;
 
@@ -50,7 +52,7 @@ public class Customer {
 ![](https://github.com/ppc-ntu-khpi/34---classes-and-modifiers-thxnk/blob/main/Solution/Done.png?raw=true)
 
 
-# Adnvanced: 
+## Adnvanced: 
 
 ![](https://github.com/ppc-ntu-khpi/34---classes-and-modifiers-thxnk/blob/main/Solution/advanced.png?raw=true)
 
