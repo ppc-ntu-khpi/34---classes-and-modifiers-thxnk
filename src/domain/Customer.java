@@ -1,9 +1,14 @@
-# На 5
-
-## code of Customer: 
-``` java
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
 package domain;
 
+/**
+ *
+ * @author boss
+ */
 public class Customer {
     private int id;
     private boolean isNew;
@@ -39,9 +44,9 @@ public class Customer {
     
     //Setters
     public void setIsNew(boolean isNew) {
-        this.isNew = isNew;
+            this.isNew = isNew;
     }
-        public void setTotal(double total) {
+    public void setTotal(double total) {
         if(total > 0)
             this.total = total;
         else {
@@ -57,14 +62,6 @@ public class Customer {
             System.out.println("You cant do this");
             this.id = 0;
         }
+        
+    }
 }
-```
-![](https://github.com/ppc-ntu-khpi/34---classes-and-modifiers-thxnk/blob/main/Solution/Done.png?raw=true)
-
-
-## Adnvanced: 
-
-![](https://github.com/ppc-ntu-khpi/34---classes-and-modifiers-thxnk/blob/main/Solution/advanced.png?raw=true)
-
-
-
