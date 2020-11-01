@@ -41,12 +41,22 @@ public class Customer {
     public void setIsNew(boolean isNew) {
         this.isNew = isNew;
     }
-    public void setTotal(double total) {
-        this.total = total;
+        public void setTotal(double total) {
+        if(total > 0)
+            this.total = total;
+        else {
+            System.out.println("You cant do this");
+            this.total = 0;
+        }
+        
     }
     public void setId(int id) {
-        this.id = id;
-    }
+        if(id > 0)
+            this.id = id;
+        else {
+            System.out.println("You cant do this");
+            this.id = 0;
+        }
 }
 ```
 ![](https://github.com/ppc-ntu-khpi/34---classes-and-modifiers-thxnk/blob/main/Solution/Done.png?raw=true)
