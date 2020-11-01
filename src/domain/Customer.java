@@ -44,12 +44,24 @@ public class Customer {
     
     //Setters
     public void setIsNew(boolean isNew) {
-        this.isNew = isNew;
+            this.isNew = isNew;
     }
     public void setTotal(double total) {
-        this.total = total;
+        if(total > 0)
+            this.total = total;
+        else {
+            System.out.println("You cant do this");
+            this.total = 0;
+        }
+        
     }
     public void setId(int id) {
-        this.id = id;
+        if(id > 0)
+            this.id = id;
+        else {
+            System.out.println("You cant do this");
+            this.id = 0;
+        }
+        
     }
 }
